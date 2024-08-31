@@ -30,11 +30,11 @@ nav h1 {
 }
 
 #albumsContent {
-    max-width: 1100px;
+    max-width: 1000px;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     
 }
@@ -43,13 +43,13 @@ nav h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     width: 200px;
     padding: 20px;
     border-radius: 10px;
     margin: 20px;
     color: #ffffff;
-    background-color: rgb(155, 155, 155);
+    background-color: rgb(161, 161, 161);
     box-shadow: 0 3px 15px rgba(7, 7, 7, 0.9);
     height: 325px;
 }
@@ -69,10 +69,17 @@ nav h1 {
     width: 150px;
     height: 150px;
     border-radius: 10px;
+    box-shadow: 0 3px 15px rgba(7, 7, 7, 0.9);
 }
 
 .albumInfos h2 {
     font-size: 23px;
+}
+
+.albumInfos h2:hover {
+   color: rgb(211, 211, 211);
+   cursor: pointer;
+   
 }
 
 .albumInfos h3 {
@@ -87,8 +94,9 @@ nav h1 {
     letter-spacing: 1px;
 
 }
+
 h2, h3, .rating {
-    margin: 4px;
+    margin: 6px;
 }
 
 @media(max-width: 496px) {

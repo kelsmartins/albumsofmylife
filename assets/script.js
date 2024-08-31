@@ -13,7 +13,7 @@ function createCard(imgname, title, artist, rating){
                 <h2>${title}</h2>
                 <h3>${artist}</h3>
             </div>
-            <span class="rating">${rating}/10</span>
+            <span class="rating">${rating}</span>
         </div>`
 
     albumsContent.appendChild(newCard);
