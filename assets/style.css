@@ -43,7 +43,7 @@ nav h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     width: 200px;
     padding: 20px;
     border-radius: 10px;
@@ -73,7 +73,7 @@ nav h1 {
 }
 
 .albumInfos h2 {
-    font-size: 23px;
+    font-size: 20px;
 }
 
 .albumInfos h2:hover {
@@ -96,7 +96,7 @@ nav h1 {
 }
 
 h2, h3, .rating {
-    margin: 6px;
+    margin: 3px;
 }
 
 @media(max-width: 496px) {
