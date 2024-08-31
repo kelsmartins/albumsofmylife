@@ -77,8 +77,8 @@ nav h1 {
 }
 
 .albumInfos h2:hover {
-   color: rgb(211, 211, 211);
    cursor: pointer;
+   text-decoration: underline;
    
 }
 
